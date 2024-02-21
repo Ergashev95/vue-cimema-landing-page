@@ -536,3 +536,33 @@ body {
 }
 
 /* SERIES SECTION */
+
+/* SITE-FOOTER */
+
+.site-footer {
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-app {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.footer-text {
+    color: var(--secondary-white);
+    font-family: var(--Comfortaa);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+}
+/* SITE-FOOTER */
