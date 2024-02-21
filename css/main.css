@@ -31,6 +31,20 @@ ul {
     list-style: none;
 }
 
+/* SCROLL */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-blue);
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-orange);
+}
+
+
 /* CONTAINER */
 
 .container {
