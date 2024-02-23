@@ -138,6 +138,16 @@
 @media (max-width: 684px) {}
 /* mobile < 576 */
 @media (max-width: 576px) {
+    .films-card__image {
+        object-fit: none;
+    }
+    .films-card__title {
+        font-size: 16px;
+        text-align: center;
+    }
+    .films-card__text {
+        font-size: 12px;
+    }
     .site-hero__title {
         font-size: 48px;
     }
@@ -155,6 +165,10 @@
     .series-sm  {
         grid-column: span 2;
         grid-row: span 1;
+    }
+    .films-card__image {
+        font-size: 12px;
+        line-height: 20px;
     }
     .primiers-image   {
         width: 100%;
